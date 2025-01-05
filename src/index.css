@@ -1,0 +1,21 @@
+:root {
+  --primary: #ff6b6b;
+  --secondary: #4ecdc4;
+  --background: #f7fff7;
+  --text: #1a535c;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Add more global styles as needed */
